@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "239837046430",
+    "firebase_url": "https://gcreationz-a2668.firebaseio.com",
+    "project_id": "gcreationz-a2668",
+    "storage_bucket": "gcreationz-a2668.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:239837046430:android:898ab182698ccf73b6bd8f",
+        "android_client_info": {
+          "package_name": "com.allan.gcreationz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "239837046430-0ivsuu3kp5gd9hh5p85v3g0amioq2gtn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwnx3U6UyYigcqrNfu-tqIHb0esreVJUg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "239837046430-0ivsuu3kp5gd9hh5p85v3g0amioq2gtn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
