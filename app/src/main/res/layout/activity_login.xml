@@ -16,7 +16,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="20dp"
-            android:layout_marginEnd="20dp">
+            android:layout_marginEnd="20dp"
+            android:padding="10dp">
 
             <EditText
                 android:id="@+id/phone"
@@ -36,11 +37,11 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="20dp"
             android:layout_marginTop="20dp"
-            android:layout_marginEnd="20dp">
+            android:layout_marginEnd="20dp"
+            android:padding="10dp">
 
             <EditText
                 android:id="@+id/otp"
-                android:visibility="gone"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@android:color/transparent"
@@ -48,26 +49,29 @@
                 android:inputType="number"
                 android:textAlignment="center"
                 android:textColor="#000"
-                android:textSize="25sp" />
+                android:textSize="25sp"
+                android:visibility="gone" />
 
         </com.google.android.material.card.MaterialCardView>
 
-        <com.google.android.material.button.MaterialButton
+        <Button
             android:id="@+id/submit_btn"
-            android:text="SUBMIT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="20dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:background="#fff7bc00"
+            android:text="SUBMIT" />
 
-        <com.google.android.material.button.MaterialButton
+        <Button
             android:id="@+id/verify_btn"
-            android:text="VERIFY"
-            android:visibility="invisible"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="20dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:background="#fff7bc00"
+            android:text="VERIFY"
+            android:visibility="invisible" />
 
     </LinearLayout>
 

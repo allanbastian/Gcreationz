@@ -26,7 +26,6 @@ import androidx.viewpager.widget.ViewPager;
 
 public class MainActivity extends AppCompatActivity {
 
-    private ImageView logo;
     private SharedPreferences sp;
     private SharedPreferences.Editor edit;
     private ViewPager viewPager;
@@ -41,16 +40,14 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        logo = findViewById(R.id.logo);
-        Animation fadeIn = AnimationUtils.loadAnimation(this, R.anim.fade_in_anim);
-        logo.startAnimation(fadeIn);
-        sp = getSharedPreferences("mypref", 0);
+        /*sp = getSharedPreferences("mypref", 0);
+        edit = sp.edit();
         flag = sp.getBoolean("isFirstTime", true);
         if (!flag) {
             logo.setVisibility(View.GONE);
             launchHomeScreen();
             finish();
-        }
+        }*/
         if (Build.VERSION.SDK_INT >= 21) {
             getWindow().getDecorView().setSystemUiVisibility(View.SYSTEM_UI_FLAG_LAYOUT_STABLE | View.SYSTEM_UI_FLAG_FULLSCREEN);
         }
